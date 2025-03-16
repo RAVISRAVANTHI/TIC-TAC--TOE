@@ -1,1 +1,61 @@
-
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: lightcyan;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .game {
+            display: grid;
+            grid-template-columns: repeat(5, 10fr);
+            grid-gap: 1vmin;
+            width: 50vmin;
+            height: 50vmin;
+            margin: auto;
+        }
+        .box {
+            width: 9vmin;
+            height: 9vmin;
+            font-size: 5vmin;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: yellow;
+            border: 2px solid black;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+        .box:hover {
+            background-color: pink;
+        }
+        #reset, #new-btn {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background: #191900;
+            color: white;
+            border-radius: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        #msg {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .msg-container {
+            margin: 20px;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
