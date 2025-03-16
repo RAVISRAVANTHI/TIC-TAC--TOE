@@ -22,6 +22,10 @@
             width: 50vmin;
             height: 50vmin;
             margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1vmin;
+            justify-content: center;
         }
         .box {
             width: 9vmin;
