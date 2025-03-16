@@ -1,11 +1,4 @@
  <script>
-
-  <!-- 5x5 Grid of Buttons -->
-            
-                for (let i = 0; i < 30; i++) {
-                    document.write('<button class="box"></button>');
-                }
-           
         let boxes = document.querySelectorAll('.box');
         let resetBtn = document.querySelector('#reset');
         let newGameBtn = document.querySelector('#new-btn');
